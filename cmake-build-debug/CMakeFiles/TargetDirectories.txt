@@ -1,0 +1,5 @@
+/Users/yuangryan/Documents/工作区/QT/Serial_simple/Simple_Seriall/cmake-build-debug/CMakeFiles/Simple_Seriall.dir
+/Users/yuangryan/Documents/工作区/QT/Serial_simple/Simple_Seriall/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yuangryan/Documents/工作区/QT/Serial_simple/Simple_Seriall/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/yuangryan/Documents/工作区/QT/Serial_simple/Simple_Seriall/cmake-build-debug/CMakeFiles/Simple_Seriall_autogen_timestamp_deps.dir
+/Users/yuangryan/Documents/工作区/QT/Serial_simple/Simple_Seriall/cmake-build-debug/CMakeFiles/Simple_Seriall_autogen.dir

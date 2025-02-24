@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Simple_Seriall",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Simple_Seriall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Simple_Seriall-Debug-3d721e7f7468aacceed7.json",
+					"name" : "Simple_Seriall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Simple_Seriall_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Simple_Seriall_autogen-Debug-3795b2b730cd7aff3931.json",
+					"name" : "Simple_Seriall_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Simple_Seriall_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Simple_Seriall_autogen_timestamp_deps-Debug-54e7e583e7e6e27011da.json",
+					"name" : "Simple_Seriall_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/yuangryan/Documents/\u5de5\u4f5c\u533a/QT/Serial_simple/Simple_Seriall/cmake-build-debug",
+		"source" : "/Users/yuangryan/Documents/\u5de5\u4f5c\u533a/QT/Serial_simple/Simple_Seriall"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

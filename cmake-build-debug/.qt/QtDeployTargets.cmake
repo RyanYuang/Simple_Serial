@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_Simple_Seriall_FILE /Users/yuangryan/Documents/工作区/QT/Serial_simple/Simple_Seriall/cmake-build-debug/Simple_Seriall)
+set(__QT_DEPLOY_TARGET_Simple_Seriall_TYPE EXECUTABLE)
