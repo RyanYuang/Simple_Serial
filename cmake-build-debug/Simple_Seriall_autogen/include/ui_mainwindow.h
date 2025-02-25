@@ -29,6 +29,7 @@
 #include "QValueAxis"
 #include "QChartView"
 #include "QSplitter"
+#include "QMouseEvent"
 QT_BEGIN_NAMESPACE
 
 class Ui_MainWindow
@@ -86,12 +87,13 @@ public:
 
     /////////////////* 自定视图区域声明 *//////////////////
     QWidget *modify_view_Widget;
+    QPushButton *modify_push_buttom;
     ////////////////////////////////////////////////////
 
     /////////////////* 拆分器声明 *//////////////////
     QSplitter *splitter;
     QSplitter *sendARecSplitter;
-    ////////////////////////////////////////////////////
+    ///////////////////////////////////////////////
 
 
     void setupUi(QMainWindow *MainWindow)
@@ -345,6 +347,11 @@ public:
 //        // 设置图表
 //        cview->setChart(chart);
 //        gridLayout_2->addWidget(cview, 0, 0, 1, 1);
+
+        // 串口设置按钮
+        modify_push_buttom = new QPushButton(modify_view_Widget);
+        modify_push_buttom->setText("Push");
+        /* 设置可拖拽属性 */
         /* endregion*/
 
         /* region - 信息收发以及设置拆分器 */
