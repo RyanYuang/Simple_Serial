@@ -409,6 +409,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/yuangryan/Documents/\u5de5\u4f5c\u533a/QT/Serial_simple/Simple_Seriall/Drage_Widget.h",
+			"MU",
+			"EWIEGA46WW/moc_Drage_Widget.cpp",
+			null
+		],
+		[
 			"/Users/yuangryan/Documents/\u5de5\u4f5c\u533a/QT/Serial_simple/Simple_Seriall/Serial.h",
 			"MU",
 			"EWIEGA46WW/moc_Serial.cpp",
@@ -508,6 +514,11 @@
 	"SETTINGS_FILE" : "/Users/yuangryan/Documents/\u5de5\u4f5c\u533a/QT/Serial_simple/Simple_Seriall/cmake-build-debug/CMakeFiles/Simple_Seriall_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/Users/yuangryan/Documents/\u5de5\u4f5c\u533a/QT/Serial_simple/Simple_Seriall/Drage_Widget.cpp",
+			"MU",
+			null
+		],
 		[
 			"/Users/yuangryan/Documents/\u5de5\u4f5c\u533a/QT/Serial_simple/Simple_Seriall/Serial.cpp",
 			"MU",

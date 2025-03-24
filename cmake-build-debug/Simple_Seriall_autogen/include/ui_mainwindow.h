@@ -30,13 +30,19 @@
 #include "QChartView"
 #include "QSplitter"
 #include "QMouseEvent"
+#include "Drage_Widget.h"
+
 QT_BEGIN_NAMESPACE
 
 class Ui_MainWindow
 {
 public:
+    /*region - 窗口基本控件声明 */
     QWidget *centralwidget;
     QGridLayout *gridLayout;
+    /* endregion */
+
+    /*region - 设置框基本控件声明 */
     QGroupBox *groupBox;
     QGridLayout *gridLayout_3;
     QFrame *verticalFrame;
@@ -60,6 +66,9 @@ public:
     QHBoxLayout *horizontalLayout_2;
     QLabel *label_3;
     QComboBox *StopBitCombo;
+    /* endregion */
+
+    /*region - 收发框基本控件声明 */
     QGroupBox *groupBox_2;
     QGridLayout *gridLayout_2;
     QPlainTextEdit *plainTextEdit;
@@ -67,6 +76,7 @@ public:
     QTextEdit *Send_Text;
     QPushButton *Send_Btn;
     QPushButton *Clear_Btn;
+    /* endregion */
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -87,7 +97,7 @@ public:
 
     /////////////////* 自定视图区域声明 *//////////////////
     QWidget *modify_view_Widget;
-    QPushButton *modify_push_buttom;
+    Drage_Widget  *modify_push_buttom;
     ////////////////////////////////////////////////////
 
     /////////////////* 拆分器声明 *//////////////////
@@ -121,7 +131,6 @@ public:
         Side_Bar_Widget->setMinimumSize(QSize(100,0));
 
         /* 侧边栏垂直控件 */
-
         Side_Bar_Serial_Vertical_Layout = new QVBoxLayout(Side_Bar_Widget);
         Side_Bar_Serial_Vertical_Layout->setObjectName("Side_Bar_Serial_Vertical_Layout");
 
@@ -349,9 +358,10 @@ public:
 //        gridLayout_2->addWidget(cview, 0, 0, 1, 1);
 
         // 串口设置按钮
-        modify_push_buttom = new QPushButton(modify_view_Widget);
+        modify_push_buttom = new Drage_Widget(modify_view_Widget);
         modify_push_buttom->setText("Push");
         /* 设置可拖拽属性 */
+
         /* endregion*/
 
         /* region - 信息收发以及设置拆分器 */
@@ -383,7 +393,7 @@ public:
         QMetaObject::connectSlotsByName(MainWindow);
     } // setupUi
 
-    /* 不重启翻译的函数 */
+    /* 不重启翻译的函a数 */
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));

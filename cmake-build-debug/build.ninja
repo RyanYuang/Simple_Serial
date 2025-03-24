@@ -89,6 +89,14 @@ build CMakeFiles/Simple_Seriall.dir/Thread.cpp.o: CXX_COMPILER__Simple_Seriall_u
   OBJECT_DIR = CMakeFiles/Simple_Seriall.dir
   OBJECT_FILE_DIR = CMakeFiles/Simple_Seriall.dir
 
+build CMakeFiles/Simple_Seriall.dir/Drage_Widget.cpp.o: CXX_COMPILER__Simple_Seriall_unscanned_Debug /Users/yuangryan/Documents/工作区/QT/Serial_simple/Simple_Seriall/Drage_Widget.cpp || cmake_object_order_depends_target_Simple_Seriall
+  DEFINES = -DQT_CHARTS_LIB -DQT_CORE5COMPAT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Simple_Seriall.dir/Drage_Widget.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/yuangryan/Documents/工作区/QT/Serial_simple/Simple_Seriall/cmake-build-debug -I/Users/yuangryan/Documents/工作区/QT/Serial_simple/Simple_Seriall -I/Users/yuangryan/Documents/工作区/QT/Serial_simple/Simple_Seriall/cmake-build-debug/Simple_Seriall_autogen/include -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtSerialPort.framework/Headers -isystem /opt/homebrew/lib/QtCore5Compat.framework/Headers -isystem /opt/homebrew/lib/QtCharts.framework/Headers -isystem /opt/homebrew/lib/QtOpenGL.framework/Headers -isystem /opt/homebrew/lib/QtOpenGLWidgets.framework/Headers
+  OBJECT_DIR = CMakeFiles/Simple_Seriall.dir
+  OBJECT_FILE_DIR = CMakeFiles/Simple_Seriall.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Simple_Seriall
@@ -97,7 +105,7 @@ build CMakeFiles/Simple_Seriall.dir/Thread.cpp.o: CXX_COMPILER__Simple_Seriall_u
 #############################################
 # Link the executable Simple_Seriall
 
-build Simple_Seriall: CXX_EXECUTABLE_LINKER__Simple_Seriall_Debug CMakeFiles/Simple_Seriall.dir/Simple_Seriall_autogen/mocs_compilation.cpp.o CMakeFiles/Simple_Seriall.dir/main.cpp.o CMakeFiles/Simple_Seriall.dir/mainwindow.cpp.o CMakeFiles/Simple_Seriall.dir/Serial.cpp.o CMakeFiles/Simple_Seriall.dir/Thread.cpp.o | /opt/homebrew/lib/QtSerialPort.framework/Versions/A/QtSerialPort /opt/homebrew/lib/QtCore5Compat.framework/Versions/A/QtCore5Compat /opt/homebrew/lib/QtCharts.framework/Versions/A/QtCharts /opt/homebrew/lib/QtOpenGLWidgets.framework/Versions/A/QtOpenGLWidgets /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets /opt/homebrew/lib/QtOpenGL.framework/Versions/A/QtOpenGL /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore || Simple_Seriall_autogen Simple_Seriall_autogen_timestamp_deps
+build Simple_Seriall: CXX_EXECUTABLE_LINKER__Simple_Seriall_Debug CMakeFiles/Simple_Seriall.dir/Simple_Seriall_autogen/mocs_compilation.cpp.o CMakeFiles/Simple_Seriall.dir/main.cpp.o CMakeFiles/Simple_Seriall.dir/mainwindow.cpp.o CMakeFiles/Simple_Seriall.dir/Serial.cpp.o CMakeFiles/Simple_Seriall.dir/Thread.cpp.o CMakeFiles/Simple_Seriall.dir/Drage_Widget.cpp.o | /opt/homebrew/lib/QtSerialPort.framework/Versions/A/QtSerialPort /opt/homebrew/lib/QtCore5Compat.framework/Versions/A/QtCore5Compat /opt/homebrew/lib/QtCharts.framework/Versions/A/QtCharts /opt/homebrew/lib/QtOpenGLWidgets.framework/Versions/A/QtOpenGLWidgets /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets /opt/homebrew/lib/QtOpenGL.framework/Versions/A/QtOpenGL /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore || Simple_Seriall_autogen Simple_Seriall_autogen_timestamp_deps
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/QtSerialPort.framework/Versions/A/QtSerialPort  /opt/homebrew/lib/QtCore5Compat.framework/Versions/A/QtCore5Compat  /opt/homebrew/lib/QtCharts.framework/Versions/A/QtCharts  /opt/homebrew/lib/QtOpenGLWidgets.framework/Versions/A/QtOpenGLWidgets  /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets  /opt/homebrew/lib/QtOpenGL.framework/Versions/A/QtOpenGL  /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui  -framework AGL  -framework AppKit  -framework OpenGL  -framework ImageIO  -framework Metal  /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -framework UniformTypeIdentifiers
   LINK_PATH = -F/opt/homebrew/lib

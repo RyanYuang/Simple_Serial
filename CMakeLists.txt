@@ -48,6 +48,8 @@ else()
           Serial.cpp
           Thread.cpp
           Thread.h
+          Drage_Widget.cpp
+          Drage_Widget.h
   )
 endif()
 
